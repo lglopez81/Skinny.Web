@@ -20,40 +20,41 @@
                 <li id="services">
                     @Html.ActionLink("Productos", "Index", "Services")
                 </li>
-                <li id="contact">
-                    @Html.ActionLink("Contact", "Index", "Contact")
-                </li>
                 <li id="portfolio" class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proveedores<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li id="singleportfolioitem">
-                            @Html.ActionLink("Single Portfolio Item", "SingleItem", "Portfolio")
+                            @Html.ActionLink("Insumos", "SingleItem", "Portfolio")
                         </li>
                     </ul>
                 </li>
                 <li id="blog" class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presupuesto <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li id="bloghome1">
-                            @Html.ActionLink("Blog Home 1", "Home1", "Blog")
+                            @Html.ActionLink("Ingresos", "Home1", "Blog")
                         </li>
                         <li id="bloghome2">
-                            @Html.ActionLink("Blog Home 2", "Home2", "Blog")
+                            @Html.ActionLink("Gastos", "Home2", "Blog")
                         </li>
                     </ul>
                 </li>
                 <li id="other" class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pronósticos <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li id="fullwidthpage">
-                            @Html.ActionLink("Full Width Page", "FullWidth", "Other")
+                            @Html.ActionLink("Ingresos", "FullWidth", "Other")
                         </li>
 
                         <li id="faq">
-                            @Html.ActionLink("FAQ", "Faq", "Other")
+                            @Html.ActionLink("Gastos", "Faq", "Other")
                         </li>
                     </ul>
                 </li>
+                <li id="contact">
+                    @Html.ActionLink("Contactenos", "Index", "Contact")
+                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->

@@ -290,7 +290,7 @@
     <Content Include="Views\Home\_MisionSectionPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_PortfolioSectionPartial.cshtml" />
+    <Content Include="Views\Home\_ProductSectionPartial.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
