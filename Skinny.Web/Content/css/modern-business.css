@@ -17,6 +17,16 @@ body {
  /* body padding for fixed top nav */
 }
 
+ a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-pills a:hover {
+   color: #000000;
+   background-color: #fffe18;  
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -148,7 +158,8 @@ footer {
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, 
-.navbar-inverse .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+.navbar-inverse .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
  {
     color: #000000;
     background-color: #fffe18;
